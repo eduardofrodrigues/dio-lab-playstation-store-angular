@@ -1,0 +1,48 @@
+.menu-bar-container {
+  display: flex;
+  position: fixed;
+  z-index: 999;
+  background-color: #FFFFFF;
+  width: 100vw;
+  height: 50px;
+
+  box-shadow: 0 0 6px 0 rgba(0,0,0,.5);
+
+}
+
+.menu-bar-logo {
+  display: flex;
+  align-items: center;
+
+  margin-left: 30px;
+}
+
+.menu-bar-logo > img {
+  width: 140px;
+}
+
+.menu-bar-items {
+  width: 50%;
+  margin: auto;
+}
+
+.menu-bar-items > ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu-bar-items > ul > li {
+}
+
+.menu-bar-items > ul > li > a {
+  text-decoration: none;
+  color: #777;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu-bar-items > ul > li > a:hover {
+  color: blue;
+  font-weight: 500;
+}
